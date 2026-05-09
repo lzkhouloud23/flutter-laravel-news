@@ -1,17 +1,20 @@
-# news_app
+# 📰 Flutter News App 
+**A full-stack news digitalization platform developed independently.**
 
-A new Flutter project.
+### 🌟 Project Scope
+This project was developed solo to master the integration between **Flutter** (Mobile) and **Laravel** (Backend). It handles everything from API design to mobile state management.
 
-## Getting Started
+### 🛠️ Tech Stack
+- **Frontend:** Flutter (Dart)
+- **Backend:** Laravel (PHP)
+- **Database:** PostgreSQL (Cloud) & SQLite (Local)
+- **API:** RESTful Architecture
 
-This project is a starting point for a Flutter application.
+### 🎯 Key Features
+- **Independent Backend:** Built a custom Laravel API to serve news content.
+- **Hybrid Storage:** Uses SQLite for an offline "Favorites" feature and PostgreSQL for the main database.
+- **Dynamic UI:** Categorized news filtering and real-time updates.
+- **Architecture:** Clean separation between the UI layer and the service layer in Dart.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🚀 Technical Achievement
+The main challenge was ensuring seamless data synchronization between the Laravel backend and the Flutter frontend while maintaining high performance on mobile devices.
